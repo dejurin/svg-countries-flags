@@ -45,6 +45,9 @@ node rename.js
 svgo -f ./dist/svg
 ```
 
+## Flags
+
+![SVG Countries Flags](https://github.com/dejurin/svg-countries-flags/blob/f893a4eec14ca1b5380e4e375f77f8b5702c4dfb/flags.png "SVG Countries Flags")
 
 ## Disclamer
 All images belong to their authors, I found this archive with country flags here https://iconplanet.app/package/countries-flags--82
