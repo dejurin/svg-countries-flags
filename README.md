@@ -1,13 +1,19 @@
 # SVG Countries Flags
 Countries flags (rounded rectangular).
 
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Preview](#preview)
+  - [Disclamer](#disclamer)
+
 ## Description
 The archive contains vector and raster images of flags of the countries of the world.
 For convenient work with projects, you can optimize images. Remove the extra weight, make them scalable (full window) and add a letter code (ISO_3166-2) to the image file name.
 
 PS: The changes only for SVG files.
 
-# Install
+
+## Installation
 
 0. Installing npm dependency
 
@@ -45,9 +51,11 @@ node rename.js
 svgo -f ./dist/svg
 ```
 
-## Flags
+## Preview
 
 ![SVG Countries Flags](https://github.com/dejurin/svg-countries-flags/blob/f893a4eec14ca1b5380e4e375f77f8b5702c4dfb/flags.png "SVG Countries Flags")
 
+
 ## Disclamer
+
 All images belong to their authors, I found this archive with country flags here https://iconplanet.app/package/countries-flags--82
