@@ -1,4 +1,4 @@
-# svg-countries-flags
+# SVG Countries Flags
 Countries flags (rounded rectangular).
 
 ## Description
@@ -38,7 +38,6 @@ node rename.js
 ```
 svgo -f ./src/countries-flags--82/svg -o ./dist/svg
 ```
-### Done
 
 
 ## Disclamer
