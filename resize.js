@@ -14,7 +14,7 @@ fs.readdir(directoryPath, function(err, files) {
         const xmlString = fs.readFileSync(directoryPath + '/' + file, 'utf8');
         var parsedXML = xmlParse.parse(xmlString);
 
-        if (parsedXML[0].innerXML) {
+        if (parsedXML[0]) {
             try {
                 fs.writeFileSync(
                     directoryPath + '/' + file,
