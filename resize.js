@@ -3,7 +3,7 @@ const path = require('path');
 const fs = require('fs');
 const xmlParse = require("xml-parse");
 
-const directoryPath = path.join(__dirname, './src/countries-flags--82/svg');
+const directoryPath = path.join(__dirname, './dist/svg');
 
 fs.readdir(directoryPath, function(err, files) {
     //handling error

@@ -21,22 +21,28 @@ npm install
 unzip ./src/countries-flags--82.zip -d ./src
 ```
 
-2. Resize SVG files (Making an Image Responsive)
+2. Move files to dist folder
+
+```
+cp -a ./src/countries-flags--82/svg/. ./dist/svg
+```
+
+3. Resize SVG files (Making an Image Responsive)
 
 ```
 node resize.js
 ```
 
-3. Rename SVG files by [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-2)
+4. Rename SVG files by [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-2)
 
 ```
 node rename.js
 ```
 
-4. Optimize SVG files and move to dist
+5. Optimize SVG files
 
 ```
-svgo -f ./src/countries-flags--82/svg -o ./dist/svg
+svgo -f ./dist/svg
 ```
 
 

@@ -32,7 +32,7 @@ function makeTitle(slug) {
 }
 
 //joining path of directory 
-const directoryPath = path.join(__dirname, './src/countries-flags--82/svg');
+const directoryPath = path.join(__dirname, './dist/svg');
 
 const unnamed = {
     "abkhazia--4738": "ge-ab",
